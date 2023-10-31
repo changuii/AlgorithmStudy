@@ -6,6 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int count = scanner.nextInt();
         int[] value = new int[count];
+        // 1인 경우를 빼는 것이 더 빠르다.
         for(int i=0; i<count; i++){
             value[i] = scanner.nextInt();
         }
@@ -22,6 +23,8 @@ public class Main {
             }
         }
     }
+
+    // 에라스토테네스를 구현할 때 루트값까지만 곱을 구하면 모든 소수를 구할 수 있다.
     public static int[] primeNum(int n) {
         int[] pNum = new int[n];
         for (int i = 2; i < pNum.length; i++) {
