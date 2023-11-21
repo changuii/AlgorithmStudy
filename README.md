@@ -19,7 +19,13 @@
 
 ### Week 3 : **재귀함수와 정렬** https://www.acmicpc.net/workbook/view/9000 
 
+하노이탑은 못풀었다.
+색종이 자르기는 성공했지만 좀 더 다듬어봐야할 것 같다.
+
 ### Week 4 : DP https://www.acmicpc.net/workbook/view/9001 
+
+피보나치 수열의 0과 1의 횟수구하기 문제는 DP로 푸는 방법을 몰라서 메모리 초과가 발생하는 것 같다.
+1, 2, 3의 합은 각 합들의 수열을 생각해보고 풀어야 한다.
 
 ### Week 5 : **DFS/BFS 스터디 1** https://www.acmicpc.net/workbook/view/9003
 
